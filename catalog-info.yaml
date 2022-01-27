@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: githubactions
+  annotations:
+    github.com/project-slug: mehanic/githubactions
+  tags:
+    - python
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard  
+spec:
+  type: other
+  lifecycle: unknown
+  owner: infrastructure
